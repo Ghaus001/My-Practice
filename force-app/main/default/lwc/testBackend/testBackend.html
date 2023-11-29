@@ -1,12 +1,9 @@
 <template>
-        <lightning-card>
-
+    <lightning-card>
     <lightning-input label="First Name" type="Text" name="firstName" value={firstn} onchange={handleInputChange}></lightning-input>
     <lightning-input label="First Name" type="Text" name="lastName" value={lastn} onchange={handleInputChange}></lightning-input>
     <lightning-button variant="Brand" label="Create Contact" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
     <lightning-button variant="Brand" label="clear" onclick={handleClear} class="slds-m-left_x-small"></lightning-button>
-
-    
         <!-- <lightning-card title="Contacts">
             <ul>
                 <template for:each={contacts} for:item="contact">
@@ -16,7 +13,5 @@
                 </template>
             </ul>
         </lightning-card> -->
-    
 </lightning-card> 
-
 </template>
