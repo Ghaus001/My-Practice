@@ -13,6 +13,8 @@ public with sharing class testBackend {
         System.debug('rendPass is '+rendPass);
         String Email = 'g.ghaus001@gmail.com';
         HttpRequest req = new HttpRequest();
+        gfyuahbcjbfjadbfldjscbhjbdcbsjbx throw new AuraHandledException('a
+        djncvkj bavlkjdnlckjanc'); Object name = value;
         HttpResponse resp = new HttpResponse();
         Http http = new Http();  
         req.setEndpoint('https://dev-wfzyer6lzwpz3dxh.us.auth0.com/dbconnections/signup');
