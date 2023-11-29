@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Simple Calculator">
+        <div class="slds-m-around_medium">
+            <lightning-input label="First Number" type="number" name="operand1" value={operand1} onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Second Number" type="number" name="operand2" value={operand2} onchange={handleInputChange}></lightning-input>
+                <lightning-combobox
+                        name="Operator"
+                        label="Operator"
+                        value={value}
+                        placeholder="Select an Operator"
+                        options={options}
+                        onchange={handleChange} ></lightning-combobox>
+                <p>Selected value is: {value}</p>
+            <div class="result">
+                Result: {result}
+            </div>
+        </div>
+    </lightning-card>
+</template>
